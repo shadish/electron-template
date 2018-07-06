@@ -6,7 +6,7 @@ function create() {
   browserWindow.webContents.openDevTools()
   browserWindow.on('closed', () => {
     browserWindow = null
-  }
+  })
 }
   
 app.on('ready', create)
@@ -21,4 +21,4 @@ app.on('activate', () => {
 	if(browserWindow === null) {
 		create()
 	}
-}
+})
