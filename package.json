@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shadish/electron-template#readme",
   "devDependencies": {
-    "electron": "^2.0.4"
+    "electron": "^2.0.4",
+    "eslint": "^5.0.1"
   }
 }
